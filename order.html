@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="order">
+    <form >
+
+        <label for="name1">First Name:</label>
+        <input type="text" id="name1" placeholder="Enter First Name" minlength="1" maxlength="100" required><br>
+        <br>
+        <label for="name2">Second Name:</label>
+        <input type="text" id="name2" placeholder="Enter Second Name" minlength="3" maxlength="100" required><br>
+         <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" required><br>
+        <br>
+        <label for="phone">Phone No.</label>
+        <input type="tel" id="phone" placeholder="Mobile Number" required><br>
+        <br>
+        <label for="item">Item</label>
+        <select id="item">
+            <option >Donuts</option>
+            <option >Pizza</option>
+            <option >Espresso</option>
+            <option >Latte</option>
+            <option >Cappucino</option>
+            <option >Sandwich</option>
+        </select> <br>
+        <br>
+
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" ><br>
+        <br>
+
+
+        <label for="payment">Payment</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="upi">UPI</option>
+        </select> <br>
+
+    
+        <br>
+        <br>
+        <input type="submit" class="submit">
+        <br><br>
+        <input type="reset" class="reset">
+
+
+
+    </form>
+</main>
+                
+</body>
+</html>
